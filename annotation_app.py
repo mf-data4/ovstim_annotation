@@ -55,6 +55,7 @@ patient_info = patient_df.iloc[0]
 st.markdown(f"""
 **Protocol:** {patient_info['Protocol']}  
 **Cycle Notes:** {patient_info['Cycle Notes']}  
+**Age:** {patient_info['Age']}  
 **AMH:** {patient_info['AMH']}
 """)
 
